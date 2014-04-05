@@ -213,10 +213,9 @@ public class TranslationConfig extends BaseConfig {
             + ChatColor.GREEN + "LibsHungergames %s" + ChatColor.DARK_GREEN + " by " + ChatColor.GREEN + "%s";
     private String scoreboardBorderSize = ChatColor.GOLD + "BorderSize:";
     private String scoreboardFeastStartingIn = ChatColor.GOLD + "Feast in:";
-    private String scoreBoardGameStartingIn = ChatColor.GOLD + "Starting in:";
+    private String scoreBoardGameStartingIn = ChatColor.RED + "Iniciando em";
     private String scoreboardInvincibleRemaining = ChatColor.GOLD + "Invincible:";
-    private String scoreboardPlayersLength = ChatColor.GREEN + "Players:";
-    private String scoreboardStagePreGame = ChatColor.DARK_AQUA + "Stage:" + ChatColor.AQUA + " Pregame";
+    private String scoreboardPlayersLength = ChatColor.GREEN + "Jogadores";
     private HashMap<Integer, String> scoreboardStages = new HashMap<Integer, String>();
     private String selectKitInventoryTitle = ChatColor.DARK_RED + "Select Kit";
     private String spectatorHeadKills = ChatColor.GREEN + "Kills: " + ChatColor.BLUE + "%s";
